@@ -1,5 +1,7 @@
 # Django Bootstrap
 
+[![Build Status](https://travis-ci.org/smashedr/django-bootstrap.svg?branch=master)](https://travis-ci.org/smashedr/django-bootstrap) [![Coverage Status](https://coveralls.io/repos/github/smashedr/django-bootstrap/badge.svg?branch=master)](https://coveralls.io/github/smashedr/django-bootstrap?branch=master)
+
 A Django Bootstrap Template Including:
 
 ### User Interface
