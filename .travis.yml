@@ -22,6 +22,9 @@ branches:
  only:
   - master
 script:
+  - cp settings.ini.example settings.ini
+  - python manage.py makemigrations
+  - python manage.py migrate
   - flake8 --exclude=migrations
   - coverage run manage.py test
 after_success:
