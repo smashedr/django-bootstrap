@@ -2,7 +2,6 @@ sudo: false
 language: python
 python:
  - "2.7"
- - "3.4"
  - "3.5"
  - "3.6"
 env:
@@ -17,7 +16,7 @@ install:
  - python -m pip install --upgrade pip
  - python -m pip install "$DJANGO"
  - python -m pip install -r requirements.txt
- - python -m pip install flake8 coverage coveralls python-codacy-coverage
+ - python -m pip install flake8 coverage coveralls
 branches:
  only:
   - master
@@ -29,5 +28,4 @@ script:
   - coverage run manage.py test
 after_success:
   - coverage xml
-  - python-codacy-coverage -r coverage.xml
   - coveralls
