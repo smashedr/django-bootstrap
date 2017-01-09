@@ -28,5 +28,6 @@ script:
   - flake8 --exclude=migrations
   - coverage run manage.py test
 after_success:
-  - coverage report
+  - coverage xml
+  - python-codacy-coverage -r coverage.xml
   - coveralls
