@@ -17,7 +17,7 @@ install:
  - python -m pip install --upgrade pip
  - python -m pip install "$DJANGO"
  - python -m pip install -r requirements.txt
- - python -m pip install flake8 coverage coveralls
+ - python -m pip install flake8 coverage coveralls python-codacy-coverage
 branches:
  only:
   - master
