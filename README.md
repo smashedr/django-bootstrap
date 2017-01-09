@@ -1,5 +1,6 @@
 # Django Bootstrap
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/497db940dd304934abc4e7f554f261f5)](https://www.codacy.com/app/smashedr/django-bootstrap?utm_source=github.com&utm_medium=referral&utm_content=smashedr/django-bootstrap&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/smashedr/django-bootstrap.svg?branch=master)](https://travis-ci.org/smashedr/django-bootstrap) [![Coverage Status](https://coveralls.io/repos/github/smashedr/django-bootstrap/badge.svg?branch=master)](https://coveralls.io/github/smashedr/django-bootstrap?branch=master)
 
 A Django Bootstrap Template Including:
